@@ -1,0 +1,26 @@
+.container{
+  
+    display: flex;
+    align-items:center;
+    font-size: 13px;
+    justify-content:space-between;
+   
+}
+.social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.foot{
+    margin-bottom:1.5rem ;
+    width: 30%;
+    line-height: 17px;
+}
+.copyright{
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+}
