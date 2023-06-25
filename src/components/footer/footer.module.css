@@ -17,8 +17,10 @@
 }
 .foot{
     margin-bottom:1.5rem ;
-    width: 30%;
-    line-height: 17px;
+    width: 42%;
+     font-size: 17px;
+    color: #bbb;
+    
 }
 .copyright{
     margin-top: 1.2rem;
