@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <div>
-                <div className={styles.foot}>FESBCH</div>
+                <div className={styles.footer}>FESBCH</div>
                 <div className={styles.foot}>federalstatebaptistchurch@gmail.com</div>
                 <div className={styles.foot}>08077735665, 08023264757</div>
                 <div className={styles.foot}>24/27, Abesan Estater Rd, 3rd Avenue Greenland Junction Jakande Estate, Abesan, Ipaja, Lagos.</div>

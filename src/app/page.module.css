@@ -2,8 +2,9 @@
   display:flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
-  height: 100vh;
+  text-align:center;
+  /* gap: 100px; */
+  height: 100vh; 
 }
 .item{
   display: flex;
@@ -12,21 +13,41 @@
   
 }
 .title{
-  font-size: 72px;
+  font-size: 102px;
   align-items: center;
   background:linear-gradient(to bottom, #53c28b, #bbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: move 3s infinite ease alternate;
+ 
+}
+@keyframes move{
+    from{
+        transform:translateY(-19px);
+        -webkit-transform:translateY(-19px);
+        -moz-transform:translateY(-19px);
+        -ms-transform:translateY(-19px);
+        -o-transform:translateY(-19px);
+}
+    to{
+        transform:translateY(0px) scale(1.05)
+}
 }
 .desc{
-  font-size: 28px;
+  font-size: 68px;
   font-weight: 300;
+   font-family: Anydore;
 }
 .verse{
   font-size:14px;
   
 }
-
+.content{
+  font-size: 22px;
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+}
 .img{
   width:100%;
   height: 500px;

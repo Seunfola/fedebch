@@ -6,6 +6,7 @@ const nextConfig = {
             "images.pexels.com",
             "i.ytimg.com",
             "spng.pngfind.com",
+            "www.churchinteriors.com"
         ]
     }
 }

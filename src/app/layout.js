@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Poppins } from 'next/font/google';
+import { Inter, Poppins, Anydore } from 'next/font/google';
 import Footer from '@/components/footer/Footer';
 import Navbar from '@/components/navbar/Navbar';
 import {ThemeProvider} from '@/context/ThemeContext';
@@ -16,11 +16,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider>
+          <Navbar />
           <div className='container'>
-            <Navbar />
+           
             {children}
-            <Footer />
+            
           </div>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

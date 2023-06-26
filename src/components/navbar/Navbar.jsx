@@ -46,9 +46,9 @@ const Navbar = () => {
                 {links.map(link => (<Link key={link.id} href={link.url} className={styles.link}>{link.title}
                 </Link>
                 ))}
-                <button className={styles.logout} onClick={() => { console.log('logged out'); }}>
+                {/* <button className={styles.logout} onClick={() => { console.log('logged out'); }}>
                     logout
-                </button>
+                </button> */}
             </div>
 
         </div>
