@@ -2,7 +2,10 @@ import './globals.css'
 import { Inter, Poppins, Anydore } from 'next/font/google';
 import Footer from '@/components/footer/Footer';
 import Navbar from '@/components/navbar/Navbar';
-import {ThemeProvider} from '@/context/ThemeContext';
+import { ThemeProvider } from '@/context/ThemeContext';
+import Donate from './donate/Page';
+import Gallery from './dashboard/Page';
+import Activities from './activities/Page';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +21,10 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Navbar />
           <div className='container'>
-           
             {children}
-            
+            <Activities />
+            <Gallery />
+            <Donate />
           </div>
           <Footer />
         </ThemeProvider>

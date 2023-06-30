@@ -4,7 +4,9 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      
+      <div className={styles.disp}>
+        <Image src='/cross (1).png' width={200} height={200} alt='hero image' className={styles.img} />
+      </div>
       <div className={styles.item}>
         <h1 className={styles.title}>Welcome To Church.</h1>
         <div className={styles.item}>
@@ -13,9 +15,7 @@ export default function Home() {
         </div>
         {/* <Button url='/contact' text="See Our Works" /> */}
       </div>
-      {/* <div className={styles.item}>
-        <Image src='/hero.png' width={500} height={500} alt='hero image' className={styles.img} />
-      </div> */}
+      
     </div>
   )
 }

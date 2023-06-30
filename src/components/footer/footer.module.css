@@ -1,15 +1,14 @@
 .container{
-  
     margin: auto;
     padding: 10px 20px;
     display: flex;
-    background: #bbb;
+    background: #9d9c9c;
     align-items:center;
     font-size: 13px;
     justify-content:space-between;
-   
 }
 .social{
+    margin-left: 0.8rem;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -19,13 +18,17 @@
     cursor: pointer;
 }
 .footer{
-font-size: 24px;
-padding: 10px 0px;
+    font-size: 32px;
+    padding-bottom: 12px;
+    font-weight: 600;
 }
 .foot{
-    margin-bottom:1.5rem ;
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom:1.3rem ;
     width: 42%;
-    font-size: 17px;  
+    font-size: 16px;  
+    align-items: center;
 }
 .copyright{
     margin-top: 1.2rem;

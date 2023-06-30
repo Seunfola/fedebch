@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    width: 100%;
+    border: 5px solid #535353;
+    height: 30vh;
+
+}
+.item{
+align-items: center;
+text-align: center;
+margin: 10px auto;
+font-size: 28px;
+}
+.desc{
+    font-size:1.2rem;
+    width: 60%;
+    margin: 5px auto;
+}
+.verse{
+    text-indent:.7em;
+    font-size:.8rem;
+}

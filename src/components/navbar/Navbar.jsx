@@ -22,11 +22,7 @@ const links = [
         title: "Contact",
         url: "/contact",
     },
-    {
-        id: 4,
-        title: "Dashboard",
-        url: "/dashboard",
-    },
+   
 ];
 
 const Navbar = () => {
@@ -46,9 +42,7 @@ const Navbar = () => {
                 {links.map(link => (<Link key={link.id} href={link.url} className={styles.link}>{link.title}
                 </Link>
                 ))}
-                {/* <button className={styles.logout} onClick={() => { console.log('logged out'); }}>
-                    logout
-                </button> */}
+    
             </div>
 
         </div>
