@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './footer.module.css';
 import Image from 'next/image';
 import Contact from '@/app/contact/Page';
+import { Link } from "next/link";
 
 const Footer = () => {
     return (
@@ -26,6 +27,7 @@ const Footer = () => {
                 <div className={styles.copyright}> @2023 Fesbach. All rights reserved.</div>
             </div>
             <div>
+                
                 {<Contact/>}
             </div>
         </div>

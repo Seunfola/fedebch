@@ -3,3 +3,38 @@
     width: 100%;
     margin: 10px auto;
 }
+.title{
+    margin: 20px auto;
+    text-align:center;
+}
+.bg{
+    display: inline-block;
+    background: #ccc;
+    padding: 10px;
+}
+.wrapper{
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    }
+    .wrapper::-webkit-scrollbar{
+display: none;
+    } 
+
+.card {
+    border: 1px solid white;
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+    height: 60vh;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    .card {
+    flex: 0 0 auto;
+    margin:auto;
+    }
+}

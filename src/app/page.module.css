@@ -14,8 +14,6 @@
   display: flex;
   flex-direction: column;
   gap:50px;
- 
-  
 }
 .disp{
   display: flex;
@@ -33,11 +31,14 @@
 .desc{
   font-size: 68px;
   font-weight: 300;
-   font-family: Anydore;
+  font-family: Anydore;
 }
 .verse{
+  display: flex;
   font-size:14px;
-  padding: 12px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
   
 }
 .content{
